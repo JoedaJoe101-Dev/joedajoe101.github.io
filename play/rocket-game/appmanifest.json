@@ -1,0 +1,21 @@
+{
+	"name": "A rocket game",
+	"short_name": "A rocket game",
+	"description": "",
+	"start_url": "index.html",
+	"display": "fullscreen",
+	"orientation": "landscape",
+	"background_color": "#ffffff",
+	"icons": [
+		{
+			"src": "icons/icon-32.png",
+			"sizes": "32x32",
+			"type": "image/png"
+		},
+		{
+			"src": "icons/icon-256.png",
+			"sizes": "250x250",
+			"type": "image/png"
+		}
+	]
+}

@@ -1,0 +1,206 @@
+header {
+    background: purple;
+    color: black;
+    padding: 2px;
+    font-family: ubuntu-light, ui-sans-serif;
+}
+
+h2 {
+    font-family: ubuntu-light, ui-sans-serif;
+}
+
+body {
+    font-family: ubuntu, ui-serif;
+    font-size: .95rem;
+    margin: 1rem;
+}
+
+nav {
+    background: #f0f0f0;
+    padding: 1rem;
+    border-radius: .5rem;
+    float: right;
+}
+
+.container {
+    width: 90%;
+    max-width: 960px;
+    margin: 1rem;
+    display: block;
+}
+
+img {
+    width: 100%
+}
+
+.section-one,
+.section-two{
+    font-size: 0.8rem;
+}
+
+.column-container,
+.column-container-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 1rem;
+    list-style-type: none;
+    padding: 0;
+}
+
+
+@media (max-width:800) {
+    .column-container,
+    .column-container-2{
+        flex-direction: column;
+    }
+}
+
+.col1,
+.col2,
+.col3,
+.col4,
+.col5 {
+    width: 40%;
+}
+
+.bar1{
+    width:20%;
+}
+
+.bar2 {
+    width: 80%;
+}
+
+
+/*Media query for mobile view*/
+@media (max-width:600px) {
+    .col1,
+    .col2,
+    .col3,
+    .col4,
+    .col5{
+        width: 69%;
+    }
+
+
+    .bar1 {
+        width:70%;
+    }
+    .bar2 {
+        width:30%;
+    }
+
+
+    .col-bg,
+    .col-bg2{
+        display: none;
+    }
+    .section-one {
+/*What?*/
+    }
+}
+
+/*Media query for tablet view*/
+@media (min-width:600px) {
+    .col1,
+    .col2,
+    .col3,
+    .col4,
+    .col5{
+        width: 95%;
+    }
+
+    .bar1,
+    .bar2{
+        width: 95%;
+    }
+
+
+    .col-bg,
+    .col-bg2{
+        display: none;
+    }
+}
+
+/*Media query for desktop view*/
+@media (min-width:946px) {
+    .col1,
+    .col2,
+    .col3,
+    .col4,
+    .col5{
+        width: 95%;
+    }
+
+
+    .bar1,
+    .bar2 {
+        width: 95%;
+    }
+
+
+    .col-bg,
+    .col-bg2{
+        display: block
+    }
+}
+
+h1 {
+    font-size: 1.69rem;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+    li a {
+        text-decoration: none;
+        padding: 15px 20px;
+        display: block;
+        color: black;
+        font-size: 1rem;
+        /*border-right: 5px dashed rgb(0, 0, 0)*/
+    }
+
+        li a:hover {
+            background-color: rgb(0, 0, 0);
+            color: rebeccapurple;
+        }
+
+
+
+.active {
+    background-color: springgreen;
+    color: purple
+}
+
+@font-face {
+    font-family: ubuntu;
+    src: local(ubuntu), url('font/Ubuntu-R.ttf') format('opentype');
+}
+
+@font-face {
+    font-family: ubuntu-light;
+    src: local(ubuntu), url('font/Ubuntu-L.ttf') format('opentype');
+}
+
+footer{
+    background: purple;
+    color: #f9f6ff
+}
+
+div {
+    /*border: 2px black solid;*/
+    justify-content: space-between;
+    margin: 1rem;
+    list-style-type: none;
+    padding: 0
+}

@@ -13,6 +13,7 @@ body {
     font-family: ubuntu, ui-serif;
     font-size: .95rem;
     margin: 1rem;
+    display: block;
 }
 
 nav {
@@ -60,7 +61,8 @@ img {
 .col2,
 .col3,
 .col4,
-.col5 {
+.col5,
+.a1 {
     width: 40%;
 }
 

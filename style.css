@@ -206,3 +206,7 @@ div {
     list-style-type: none;
     padding: 0
 }
+
+bold {
+    font-weight: bold;
+}

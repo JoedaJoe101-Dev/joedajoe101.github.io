@@ -1,0 +1,21 @@
+{
+	"name": "You will regret playing this game",
+	"short_name": "You will regret playing this game",
+	"description": "Please don't play this!",
+	"start_url": "index.html",
+	"display": "fullscreen",
+	"orientation": "landscape",
+	"background_color": "#ffffff",
+	"icons": [
+		{
+			"src": "icons/icon-16.png",
+			"sizes": "32x32",
+			"type": "image/png"
+		},
+		{
+			"src": "icons/icon-128.png",
+			"sizes": "1200x1200",
+			"type": "image/png"
+		}
+	]
+}

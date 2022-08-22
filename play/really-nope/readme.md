@@ -12,7 +12,7 @@ Note: Contains anti-Windows checks
 
 ## Play
 
-**Web**: <https://nope.emffibns.repl.co>
+**Web**: <https://chiakigasai.github.io/play/nope/>
 
 ## Requirements
 

@@ -1,2 +1,2 @@
 # Chiaki Gasai GitHub Page - ChiakiGasai.tech
-New GitHub Pages Site for Chiaki Gasai, the showcase for everything bad or somewhat bad.
+New GitHub Pages Site for Chiaki Gasai, the showcase for everything bad.
